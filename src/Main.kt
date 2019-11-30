@@ -7,10 +7,9 @@ infix fun IntArray.add(value: Int): IntArray {
     return arr
 }
 
-infix fun IntArray.insert(value: Int): IntArray {
-    this[lastIndex] = value
-    return this
-}
+// infix fun IntArray.insert(value: Int): IntArray {    
+//     return this
+// }
 
 //infix fun IntArray.at(position: Int): IntArray {
 //}
